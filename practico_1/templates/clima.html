@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Clima en {{  ciudad  }}
+{% endblock %}
+
+{% block body %}
+<h2>Clima actua en {{  ciudad  }}</h2>
+<p>Temperatura: {{ clima.temperature }}</p>
+{% endblock %}

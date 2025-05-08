@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block title %}
+    Mi app del clima
+{% endblock %}
+
+{% block body %}
+<p>Ciudades disponicles</p>
+<ul>
+    <li><a href="/clima?ciudad=Buenos%20Aires">Buenos Aires</a></li>
+    <li><a href="/clima?ciudad=Cordoba">Córdoba</a></li>
+    <li><a href="/clima?ciudad=Madrid">Madrid</a></li>
+    <li><a href="/clima?ciudad=Nueva%20York">Nueva York</a></li>
+    <li><a href="/clima?ciudad=Tokio">Tokio</a></li>
+    <li><a href="/clima?ciudad=Paris">París</a></li>
+    <li><a href="/clima?ciudad=Londres">Londres</a></li>
+    <li><a href="/clima?ciudad=Sidney">Sídney</a></li>
+</ul>
+
+{% endblock %}
